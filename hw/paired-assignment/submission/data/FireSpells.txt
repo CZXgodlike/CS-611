@@ -1,0 +1,6 @@
+Name/cost/required level/damage/mana cost/Catogery
+Flame_Tornado   700     4   850     300   Fire_Spell
+Breath_of_Fire  350     1   450     100   Fire_Spell
+Heat_Wave       450     2   600     150   Fire_Spell
+Lava_Comet      800     7   1000    550   Fire_Spell
+Hell_Storm      600     3   950     600   Fire_Spell

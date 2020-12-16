@@ -1,0 +1,5 @@
+Name/cost/required level/damage/mana cost/Catogery
+Lightning_Dagger      400        1       500     150   Lightning_Spell
+Thunder_Blast         750        4       950     400   Lightning_Spell
+Electric_Arrows       550        5       650     200   Lightning_Spell
+Spark_Needles         500        2       600     200   Lightning_Spell

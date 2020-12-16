@@ -1,0 +1,21 @@
+Welcome to Trianta Ena!
+The objective of the game is to accumulate a hand of cards that equals 31 (Trianta ena!) 
+or a hand that has a card value greater than that of the Dealers without exceeding 31.
+
+To start each round, the Dealer deals one card to each player. The card that the Players
+are dealt is kept face down and known only to each Player. The first card the Dealer is 
+dealt is kept face up and known to all the Players and the Dealer. After each player 
+receives their first card, they place their bet or choose to fold without betting. Once all 
+bets have been made, each player with a standing bet receives two more cards face up. 
+After each player has three cards (one down, two up), each Player in turn may take one of 
+the following actions:
+ Hit : The Players continue to receive another card
+ Stand : The Player ends and maintains the value of the current hand
+
+If the player chooses to take another card and their hand is bust, that player must pay the 
+banker the total amount of their bet. Play continues with the next player.
+Once all the Players stand or have gone bust, the dealer reveals their face down card to 
+the Players, and continues to take a hit until the hand value of the Banker reaches or 
+exceeds 27.
+This concludes a round, and the game continues so long as players have money and 
+choose not to cash out.

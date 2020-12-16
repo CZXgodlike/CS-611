@@ -1,12 +1,9 @@
 package gui;
 
 import assets.Stock;
-import com.opencsv.CSVReader;
-import com.opencsv.exceptions.CsvException;
 import controller.StockDataController;
 
 import javax.swing.table.AbstractTableModel;
-import javax.swing.table.DefaultTableModel;
 import java.io.IOException;
 import java.util.List;
 
@@ -15,10 +12,10 @@ public class StockTableModel extends AbstractTableModel {
     private List<Stock> db;
     private String[] colNames = {"Symbol", "Company", "Last", "Chng", "% Chng", "Volume", "$ Traded"};
     private StockDataController controller;
-    private TablePanel table;
+    private StockDataEditTablePanel table;
 
 
-    public StockTableModel(TablePanel table) {
+    public StockTableModel(StockDataEditTablePanel table) {
         this.controller = new StockDataController();
         this.table = table;
     }
@@ -28,6 +25,10 @@ public class StockTableModel extends AbstractTableModel {
         this.controller = new StockDataController();
     }
 
+    @Override
+    public String getColumnName(int column) {
+        return colNames[column];
+    }
 
     @Override
     public boolean isCellEditable(int rowIndex, int columnIndex) {

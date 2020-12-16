@@ -1,24 +1,19 @@
 package account;
 
-import account.CheckingAccount;
-import account.CustomerAccount;
-import account.SavingAccount;
-import account.SecuritiesAccount;
-
 public class CustomerAccountFactory {
 
-    public CustomerAccount getCustomerAccount(String accountType){
+    public CustomerAccount getCustomerAccount(String userName, String accountType){
         if(accountType == null){
             return null;
         }
         if(accountType.equalsIgnoreCase("CHECKING")){
-            return new CheckingAccount();
+            return new CheckingAccount(userName);
 
         } else if(accountType.equalsIgnoreCase("SAVING")){
-            return new SavingAccount();
+            return new SavingAccount(userName);
 
         } else if(accountType.equalsIgnoreCase("SECURITIES")){
-            return new SecuritiesAccount();
+            return new SecuritiesAccount(userName);
         }
 
         return null;

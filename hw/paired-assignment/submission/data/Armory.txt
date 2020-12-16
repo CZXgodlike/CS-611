@@ -1,0 +1,7 @@
+Name/cost/required level/damage reduction/Catogery
+Platinum_Shield       150   1   200   Armor
+Breastplate           350   3   600   Armor
+Full_Body_Armor       1000  8   1100   Armor
+Wizard_Shield         1200  10  1500   Armor
+Speed_Boots           550   4   600   Armor
+Guardian_Angel        1000  10  1000   Armor

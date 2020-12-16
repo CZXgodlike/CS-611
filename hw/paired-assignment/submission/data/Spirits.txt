@@ -1,0 +1,15 @@
+Name/level/damage/defense/dodge chance/Category
+Andrealphus 2 600 500 40  Spirit
+Aim-Haborym 1 450 350 35  Spirit
+Andromalius 3 550 450 25  Spirit
+Chiang-shih 4 700 600 40  Spirit
+FallenAngel 5 800 700 50  Spirit
+Ereshkigall 6 950 450 35  Spirit
+
+Melchiresas 7 350 150 75  Spirit
+Jormunngand 8 600 900 20  Spirit
+
+Rakkshasass 9 550 600 35  Spirit
+Taltecuhtli 10 300 200 50  Spirit
+
+Casper 1 100 100 50  Spirit

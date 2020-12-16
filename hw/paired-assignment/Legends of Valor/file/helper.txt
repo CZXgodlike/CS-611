@@ -1,0 +1,29 @@
++------------------------+
+|  Controls:             |
+|                        |
+|  w - move up;          |
+|                        |
+|  s - move down;        |
+|                        |
+|  a - move left;        |
+|                        |
+|  d - move right;       |
+|                        |
+|  t - teleport;         |
+|                        |
+|  b - back;             |
+|                        |
+|  space - normal attack;|
+|                        |
+|  m - manual;           |
+|                        |
+|  i - inventory;        |
+|                        |
+|  s - heroes stats;     |
+|                        |
+|  h - open helper;      |
+|                        |
+|  c - close manual;     |
+|                        |
+|  q - quit game;        |
++------------------------+

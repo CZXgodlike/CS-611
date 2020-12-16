@@ -37,27 +37,55 @@ public class Stock {
         return change;
     }
 
+    public void setChange(String change) {
+        this.change = change;
+    }
+
     public String getChange_percentage() {
         return change_percentage;
+    }
+
+    public void setChange_percentage(String change_percentage) {
+        this.change_percentage = change_percentage;
     }
 
     public String getCompany() {
         return company;
     }
 
+    public void setCompany(String company) {
+        this.company = company;
+    }
+
     public String getLast() {
         return last;
+    }
+
+    public void setLast(String last) {
+        this.last = last;
     }
 
     public String getSymbol() {
         return symbol;
     }
 
+    public void setSymbol(String symbol) {
+        this.symbol = symbol;
+    }
+
     public String getTraded() {
         return traded;
     }
 
+    public void setTraded(String traded) {
+        this.traded = traded;
+    }
+
     public String getVolume() {
         return volume;
+    }
+
+    public void setVolume(String volume) {
+        this.volume = volume;
     }
 }

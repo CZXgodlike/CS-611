@@ -1,0 +1,7 @@
+Name/cost/level/damage/required hands/Category
+Sword           500     1    800    1   Weapon
+Bow             300     2    500    2   Weapon
+Scythe          1000    6    1100   2   Weapon
+Axe             550     5    850    1   Weapon
+TSwords     	1400    8    1600   2   Weapon
+Dagger          200     1    250    1   Weapon

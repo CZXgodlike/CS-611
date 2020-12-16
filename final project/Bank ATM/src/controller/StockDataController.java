@@ -5,7 +5,6 @@ import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import com.opencsv.exceptions.CsvException;
 import gui.AddStockEvent;
-import gui.TablePanel;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -17,7 +16,7 @@ public class StockDataController extends DataController{
     //private StockDatabase db = new StockDatabase();
 
     public StockDataController(){
-        dataPath = "data/stockData.csv";
+        dataPath = "data/stockData/stockData.csv";
     }
 
     public List<Stock> getData() throws IOException {
@@ -25,7 +24,7 @@ public class StockDataController extends DataController{
     }
 
     private List<Stock> readData() throws IOException {
-        BufferedReader csvReader = new BufferedReader(new FileReader("data/stockData.csv"));
+        BufferedReader csvReader = new BufferedReader(new FileReader("data/stockData/stockData.csv"));
         List<Stock> stocks = new ArrayList<>();
         String row;
         //csvReader.readLine(); //skip the first line
@@ -50,7 +49,7 @@ public class StockDataController extends DataController{
 //        Stock stock = new Stock(symbol, company, last, change, change_percentage, volume, traded);
 //        db.addStock(stock);
 
-        FileWriter csvWriter = new FileWriter("data/stockData.csv", true);
+        FileWriter csvWriter = new FileWriter("data/stockData/stockData.csv", true);
         csvWriter.append(symbol);
         csvWriter.append(",");
         csvWriter.append(company);
@@ -90,6 +89,24 @@ public class StockDataController extends DataController{
         writer.writeAll(csvBody);
         writer.flush();
         writer.close();
+    }
+
+    public String getCurrentPrice(String id) throws IOException {
+        for(Stock stock: readData()){
+            if(id.equals(stock.getSymbol())){
+                return stock.getLast();
+            }
+        }
+        return null;
+    }
+
+    public Stock getStock(String id) throws IOException {
+        for(Stock stock: readData()){
+            if(id.equals(stock.getSymbol())){
+                return stock;
+            }
+        }
+        return null;
     }
 
 }

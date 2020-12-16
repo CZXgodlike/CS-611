@@ -20,7 +20,7 @@ public class TablePanel extends JPanel {
 
     public TablePanel(){
 
-        tableModel = new StockTableModel(this);
+//        tableModel = new StockTableModel(this);
         table = new JTable(tableModel);
         popupMenu = new JPopupMenu();
         controller = new StockDataController();

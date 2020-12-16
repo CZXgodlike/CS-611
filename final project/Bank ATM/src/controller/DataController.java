@@ -15,6 +15,10 @@ public abstract class DataController {
 
     public DataController(){}
 
+    public DataController(String dataPath){
+        this.dataPath = dataPath;
+    }
+
     public void deleteData(int row) throws IOException, CsvException {
         CSVReader reader2 = new CSVReader(new FileReader(dataPath));
         List<String[]> allElements = reader2.readAll();
@@ -27,5 +31,8 @@ public abstract class DataController {
         writer.writeAll(allElements);
         writer.close();
     }
+
+    public abstract Object getData() throws IOException;
+
 
 }

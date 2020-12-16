@@ -1,0 +1,107 @@
+## Trianta Ena
+
+#### I. The Game:
+The objective of the game is to accumulate a hand of cards that equals 31 (Trianta ena!) 
+or a hand that has a card value greater than that of the Dealers without exceeding 31.
+
+#### II. The Players:
+This is a game with multiple players: 
+* The Dealer, referred to as the Banker: distributes cards and pays out the winners
+from amount of money held in the Bank.
+* The Players (usually no more than seven or nine) : human players who face the 
+dealer. If the player loses they pay the Banker the amount equal to their bet. The 
+banker accumulates the winnings.
+
+#### III. The Rules:
+Each player begins with $100; 
+the Banker begins with three times the amount of the Players, which is $300.
+
+Trianta Ena consists of continuous rounds of play with the same original deck(s), 
+reshuffled as needed.
+
+Each round the Player may bet any amount of currency up to the total amount they have. 
+If the Player wins, they keep their bet and receive an equal amount of their bet from the 
+Banker. Otherwise, the Player gives the entirety of the bet to the Banker.
+
+To start each round, the Dealer deals one card to each player. The card that the Players
+are dealt is kept face down and known only to each Player. The first card the Dealer is 
+dealt is kept face up and known to all the Players and the Dealer. After each player 
+receives their first card, they place their bet or choose to fold without betting. Once all 
+bets have been made, each player with a standing bet receives two more cards face up. 
+After each player has three cards (one down, two up), each Player in turn may take one of 
+the following actions:
+
+* Hit : The Players continue to receive another card
+* Stand : The Player ends and maintains the value of the current hand
+
+If the player chooses to take another card and his hand is bust, that player must pay the 
+banker the total amount of their bet. Play continues with the next player.
+
+Once all the Players stand or have gone bust, the dealer reveals their face down card to 
+the Players, and continues to take a hit until the hand value of the Banker reaches or 
+exceeds 27.
+
+After each round, all bankrupt players left the game automatically. The game continues 
+until all the players has left.
+
+#### IV. The Cards:
+The game is played using two standard 52 card decks. Each card has a face value, King, 
+Queen, and Jack have a face value of 10; the Ace can have a face value of 1 or 11. If the 
+hand consists of one Ace, the player can choose to count it as a 1 or an 11. If the hand 
+consists of more than one Ace, only one Ace can count as 1. All others have a value of 11.
+
+The cards are reshuffled once all the cards have been used up.
+
+#### V. The Winner:
+There can be multiple winners in each round. In general, the winner of a round is any 
+Player who has a hand value higher than that of the Dealer without having gone bust. In 
+the case of a tie, the Dealer wins. 
+
+A special case includes natural Trianta Ena versus the hand value of a 31. A natural 
+Trianta Ena is defined as a hand having a value of 31 (i.e. an Ace and two face cards). 
+While a value of 31 can be any amount of cards (e.g. a 9, 2, and two face cards). Natural 
+Trianta Ena always triumphs over a value of 31. A natural 31 of the Banker results in the 
+Banker winning the bets from all players.
+
+#### VI. Rotating the Banker:
+At the end of each round, the player with the largest total cash amount exceeding that of 
+the Banker, is automatically to become the Banker and he/she cannot decline.
+
+#### VII. Design:
+* Assets: This package contains a GraphicReader Class, which is used to read
+ASCII arts from txt files. Also has a TriantaEnaGraphic Class, which acts as a 
+database containing all the graphics read by the GraphicReader.
+
+* Cards: Package contains a Card Class and a Deck Class.
+
+* Dealer: Contains a Dealer abstract class and a TriantaEnaBanker Class inheriting 
+the Dealer Class.
+
+* Games: Contains a Game abstract class and a CardGame abstract class inheriting the Game class.
+Also a TriantaEna Class inheriting the CardGame class, representing the body of TriantaEna.
+
+* Hands: Contains a Hand abstract class and a TriantaEnaHand Class inheriting the Hand class, 
+which represents a hand of a player in TriantaEna, used for holding cards. 
+
+* Human: Only includes a Human abstract class, which is the super class of Dealer
+class and Player Class.
+
+* Players: Contains TriantaEnaPlayer Class inheriting Player abstract class, represents
+a player of TriantaEna. Also TriantaEnaPlayers extends Players abstact class, representing
+the team of TriantaEna players.
+
+*  UserInterfaces: Contains classes used for printing colorful messages and 
+interacting with users.
+
+* Wallet: Contains Wallet class represents a wallet of a player.
+
+* Start Class: Only contains the main function.
+
+#### VIII. Compile and run command:
+First, cd into src folder using `cd src`
+
+Next, compile using `javac Start.java`
+
+Then, go one folder back using command `cd ..`
+
+Finally, run the Start Class using `java -cp src Start`

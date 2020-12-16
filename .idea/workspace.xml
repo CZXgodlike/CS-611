@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e13a2b20-3ba5-4d91-a650-9126321d11c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/final project/Bank ATM/src/Services/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final project/Bank ATM/src/gui/StockMarketGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/out/production/Legends_Monsters_and_Heroes/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/out/production/Legends_Monsters_and_Heroes/Start.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/out/production/Legends_Monsters_and_Heroes/UserInterface/FightInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/out/production/Legends_Monsters_and_Heroes/UserInterface/FightInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/out/production/Legends_Monsters_and_Heroes/UserInterface/InventoryInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/out/production/Legends_Monsters_and_Heroes/UserInterface/InventoryInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/out/production/Legends_Monsters_and_Heroes/UserInterface/Manual.class" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/out/production/Legends_Monsters_and_Heroes/UserInterface/Manual.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/out/production/Legends_Monsters_and_Heroes/UserInterface/MarketInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/out/production/Legends_Monsters_and_Heroes/UserInterface/MarketInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/out/production/Legends_Monsters_and_Heroes/UserInterface/UserInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/out/production/Legends_Monsters_and_Heroes/UserInterface/UserInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/out/production/Legends_Monsters_and_Heroes/UserInterface/checkYesOrNo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/src/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/src/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/src/UserInterface/FightInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/src/UserInterface/FightInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/src/UserInterface/InventoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/src/UserInterface/InventoryInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/src/UserInterface/Manual.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/src/UserInterface/Manual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/src/UserInterface/MarketInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/src/UserInterface/MarketInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/src/UserInterface/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/src/UserInterface/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/src/UserInterface/checkYesOrNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw/hw4/Legends_Monsters_and_Heroes/src/UserInterface/Conformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/data/Armory.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/data/Dragons.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/data/Exoskeletons.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/data/FireSpells.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/data/IceSpells.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/data/LightningSpells.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/data/Paladins.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/data/Potions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/data/Sorcerers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/data/Spirits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/data/Warriors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/data/Weaponry.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/file/helper.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/graphic/Banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/graphic/LevelUp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/graphic/Market.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Fight/Fight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Fight/FreeForAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Game/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Game/Legends.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Game/RPGGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Helper/Create.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Helper/DataBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Helper/Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Helper/FileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Helper/HeroFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Helper/ItemFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Helper/MonsterFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Helper/MyScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Helper/Tabulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Heros/Hand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Heros/Hands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Heros/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Heros/NumericAttribute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Heros/Paladin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Heros/Sorcerer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Heros/Warrior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Items/Armor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Items/FireSpell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Items/IceSpell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Items/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Items/LightningSpell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Items/Potion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Items/Spell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Items/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Map/Cell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Map/Grids.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Map/InaccessibleCell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Map/LegendMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Map/MarketCell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Map/NormalCell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Market/Market.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Monsters/Dragon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Monsters/Exoskeleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Monsters/Monster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Monsters/Spirit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Player/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Start.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Stuffs/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/Stuffs/Wallet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/UserInterface/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/UserInterface/FightInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/UserInterface/Graphic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/UserInterface/InventoryInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/UserInterface/Manual.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/UserInterface/MarketInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/UserInterface/UserInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/hw4/submission/src/UserInterface/checkYesOrNo.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lE0qU64QIxgWwRkx6XzM5eEBvJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e13a2b20-3ba5-4d91-a650-9126321d11c8" name="Default Changelist" comment="" />
+      <created>1607147133329</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607147133329</updated>
+    </task>
+    <servers />
+  </component>
+</project>
