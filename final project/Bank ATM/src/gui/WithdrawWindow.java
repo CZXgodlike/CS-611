@@ -3,7 +3,7 @@
  *
  * @author Zhuyun Chen
  * @note Part of final
- * Login window for BankATM
+ * Withdraw window for BankATM
  */
 
 package gui;

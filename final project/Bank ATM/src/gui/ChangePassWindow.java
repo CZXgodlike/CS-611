@@ -3,7 +3,7 @@
  *
  * @author Zhuyun Chen
  * @note Part of final
- * Login window for BankATM
+ * Change password window for BankATM
  */
 
 package gui;

@@ -1,9 +1,5 @@
 /**
- * BankATM
- *
- * @author Zhuyun Chen
- * @note Part of final
- * GUI to diplay and take action in an customer account
+ * Class of the main window of saving/checking account
  */
 
 package gui;

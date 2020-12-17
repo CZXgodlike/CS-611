@@ -1,3 +1,6 @@
+/**
+ * Daily report window
+ */
 package gui;
 
 import controller.DailyReportController;

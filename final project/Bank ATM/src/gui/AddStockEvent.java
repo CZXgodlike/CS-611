@@ -1,3 +1,7 @@
+/**
+ * Event for clicking the add stock button
+ */
+
 package gui;
 
 import java.util.EventObject;

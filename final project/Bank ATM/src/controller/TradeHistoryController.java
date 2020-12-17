@@ -1,3 +1,6 @@
+/**
+ * Class represents the controller of trading history csv file
+ */
 package controller;
 
 import assets.Stock;

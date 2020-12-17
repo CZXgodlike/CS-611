@@ -1,3 +1,6 @@
+/**
+ * Class represents the controller of daily report csv file
+ */
 package controller;
 
 import assets.DailyTransaction;

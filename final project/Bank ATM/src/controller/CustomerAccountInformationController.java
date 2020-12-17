@@ -1,3 +1,6 @@
+/**
+ * Class represents the controller of customer account information csv file
+ */
 package controller;
 
 import assets.CustomerAccountInformation;

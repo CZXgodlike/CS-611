@@ -1,3 +1,6 @@
+/**
+ * Offers a method for getting date as format mm_dd_yyyy
+ */
 package utils;
 
 import java.time.LocalDate;

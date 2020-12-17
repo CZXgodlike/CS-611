@@ -1,9 +1,5 @@
 /**
- * BankATM
- *
- * @author Zhuyun Chen
- * @note Part of final
- * Login window for BankATM
+ * Deposit window
  */
 
 package gui;

@@ -1,3 +1,6 @@
+/**
+ * Main window of the banker account
+ */
 package gui;
 
 import controller.CustomerAccountInformationController;

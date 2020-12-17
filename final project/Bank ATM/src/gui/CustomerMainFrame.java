@@ -1,3 +1,6 @@
+/**
+ * Window displaying the accounts associate to the customer
+ */
 package gui;
 
 import controller.AssociateAccountController;

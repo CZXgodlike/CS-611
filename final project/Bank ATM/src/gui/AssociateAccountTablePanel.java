@@ -1,11 +1,10 @@
 package gui;
 
-import account.AccountFactory;
+import account.CustomerAccountFactory;
 import account.CustomerAccount;
 import account.SecuritiesAccount;
 import assets.AccountInformation;
 import controller.AssociateAccountController;
-import controller.CustomerAccountInformationController;
 
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -21,7 +20,7 @@ public class AssociateAccountTablePanel extends JPanel {
     private AssociateAccountModel model;
     private String userName;
     private AssociateAccountController controller;
-    private AccountFactory factory;
+    private CustomerAccountFactory factory;
     private CustomerAccount account;
 
     public AssociateAccountTablePanel(String userName, CustomerMainFrame prev){
@@ -45,7 +44,7 @@ public class AssociateAccountTablePanel extends JPanel {
 
 
                 if (e.getClickCount() == 2 && table.getSelectedRow() != -1) {
-                    factory = new AccountFactory(accountType, id);
+                    factory = new CustomerAccountFactory(accountType, id);
                     try {
                         account = factory.createAccount();
                     } catch (IOException ioException) {

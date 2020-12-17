@@ -1,3 +1,6 @@
+/**
+ * Class represents a security account
+ */
 package account;
 
 import assets.CustomerAccountInformation;

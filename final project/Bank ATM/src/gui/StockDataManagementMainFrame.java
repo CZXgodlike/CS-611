@@ -1,3 +1,6 @@
+/**
+ * Window for editing the stock data
+ */
 package gui;
 
 import com.opencsv.exceptions.CsvException;

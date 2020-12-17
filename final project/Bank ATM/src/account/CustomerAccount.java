@@ -1,3 +1,7 @@
+/**
+ * Abstract class for the three kinds of customer accounts:
+ * saving account, checking account and security account
+ */
 package account;
 
 import assets.Customer;

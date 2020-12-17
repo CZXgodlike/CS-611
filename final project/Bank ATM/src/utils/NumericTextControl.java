@@ -1,3 +1,6 @@
+/**
+ * Used for control the entered text to be only number
+ */
 package utils;
 
 import java.awt.Toolkit;

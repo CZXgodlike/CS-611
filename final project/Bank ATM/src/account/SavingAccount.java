@@ -1,5 +1,9 @@
 package account;
 
+/**
+ * Class represents a saving account
+ */
+
 import assets.CustomerAccountInformation;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvException;

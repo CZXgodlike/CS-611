@@ -1,3 +1,6 @@
+/**
+ * Class represents the controller of stock data csv file
+ */
 package controller;
 
 import assets.Stock;

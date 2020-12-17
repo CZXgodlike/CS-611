@@ -1,3 +1,6 @@
+/**
+ * Class represents a customer
+ */
 package assets;
 
 import account.Account;

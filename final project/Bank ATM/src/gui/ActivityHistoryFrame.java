@@ -1,3 +1,6 @@
+/**
+ * Class represents the window of displaying activity history
+ */
 package gui;
 
 import controller.ActivityHistoryController;

@@ -1,3 +1,6 @@
+/**
+ * Class represents the controller of customer data csv file
+ */
 package controller;
 
 import assets.*;

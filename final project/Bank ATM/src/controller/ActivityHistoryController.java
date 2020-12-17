@@ -1,3 +1,6 @@
+/**
+ * Class represents the controller of activity history csv file
+ */
 package controller;
 
 import assets.ActivityHistory;

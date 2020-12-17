@@ -1,3 +1,6 @@
+/**
+ * Class used for storing a line of stock owned by user from csv
+ */
 package assets;
 
 import controller.StockDataController;

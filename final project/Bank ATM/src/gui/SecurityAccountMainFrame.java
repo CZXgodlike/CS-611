@@ -1,3 +1,6 @@
+/**
+ * Security account main frame
+ */
 package gui;
 
 import account.SecuritiesAccount;

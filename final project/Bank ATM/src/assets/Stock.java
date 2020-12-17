@@ -1,3 +1,6 @@
+/**
+ * Class represent a stock
+ */
 package assets;
 
 import java.util.List;

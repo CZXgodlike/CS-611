@@ -1,10 +1,7 @@
 package account;
 
 /**
-* BankATM
-*
-* @author Zhuyun Chen
-* @note Part of final
+* Class representing the banker account
 */
 import assets.*;
 import services.StockMarket;

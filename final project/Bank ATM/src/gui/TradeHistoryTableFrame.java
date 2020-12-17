@@ -1,3 +1,6 @@
+/**
+ * Windows for displaying trading history
+ */
 package gui;
 
 import account.SecuritiesAccount;

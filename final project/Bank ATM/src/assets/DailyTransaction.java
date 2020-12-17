@@ -1,3 +1,6 @@
+/**
+ * Class used for storing a line of daily transaction from csv
+ */
 package assets;
 
 import java.util.List;

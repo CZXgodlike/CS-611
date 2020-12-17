@@ -1,3 +1,6 @@
+/**
+ * Window for displaying stock price
+ */
 package gui;
 
 import account.SecuritiesAccount;

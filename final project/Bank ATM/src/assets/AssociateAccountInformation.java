@@ -1,3 +1,6 @@
+/**
+ * Class used for storing user's owned account information
+ */
 package assets;
 
 import java.util.List;

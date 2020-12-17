@@ -1,3 +1,6 @@
+/**
+ * Class used for storing a line of customer information from csv
+ */
 package assets;
 
 import java.util.List;

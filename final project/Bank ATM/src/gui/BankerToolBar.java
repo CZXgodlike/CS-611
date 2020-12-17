@@ -1,3 +1,6 @@
+/**
+ * Bottom toolbar of the banker account main window
+ */
 package gui;
 
 import javax.swing.*;

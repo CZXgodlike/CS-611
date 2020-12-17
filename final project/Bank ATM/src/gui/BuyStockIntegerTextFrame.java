@@ -1,3 +1,6 @@
+/**
+ * Window of enter the number of stocks want to buy
+ */
 package gui;
 
 import account.SecuritiesAccount;

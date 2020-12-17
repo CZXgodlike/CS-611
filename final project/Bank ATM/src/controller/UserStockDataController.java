@@ -1,3 +1,6 @@
+/**
+ * Class represents the controller of customer stock data csv file
+ */
 package controller;
 
 

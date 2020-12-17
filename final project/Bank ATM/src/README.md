@@ -1,2 +1,0 @@
-# CS611_Final_Project
-

@@ -1,3 +1,6 @@
+/**
+ * Class used for storing a line of trading history from csv
+ */
 package assets;
 
 import java.util.List;

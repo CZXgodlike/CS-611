@@ -3,14 +3,13 @@
  *
  * @author Zhuyun Chen
  * @note Part of final
- * Login window for BankATM
+ * Transfer window for BankATM
  */
 
 package gui;
 
 import utils.*;
 
-import java.util.*;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -85,7 +84,7 @@ public class TransferWindow extends JFrame {
                 String id = aAccText.getText();
                 CustomerAccount account = null;
                 try {
-                    account = new AccountFactory(id).findAccount();
+                    account = new CustomerAccountFactory(id).findAccount();
                 } catch (IOException ioException) {
                     ioException.printStackTrace();
                 }

@@ -1,11 +1,9 @@
 package account;
-/**
- * BankATM
- *
- * @author Zhuyun Chen
- * @note Part of final
- * Abstract account class
+
+/*
+  Abstract class for all kind of accounts
  */
+
 import java.io.File;
 import java.util.*;
 

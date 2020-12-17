@@ -1,3 +1,6 @@
+/**
+ * Class represents a checking account
+ */
 package account;
 
 import assets.CustomerAccountInformation;

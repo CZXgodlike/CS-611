@@ -1,3 +1,6 @@
+/**
+ * Class used for storing a line of account information from csv
+ */
 package assets;
 
 public class AccountInformation {

@@ -3,7 +3,7 @@
  *
  * @author Zhuyun Chen
  * @note Part of final
- * Register window for BankATM
+ * Window for creating a security account
  */
 package gui;
 

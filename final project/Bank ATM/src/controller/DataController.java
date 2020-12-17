@@ -1,3 +1,6 @@
+/**
+ * Super class of controllers
+ */
 package controller;
 
 import com.opencsv.CSVReader;

@@ -1,3 +1,6 @@
+/**
+ * Offered a method for converting currency
+ */
 package utils;
 
 import com.opencsv.CSVReader;

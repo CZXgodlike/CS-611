@@ -1,3 +1,6 @@
+/**
+ * Class represents the controller of associate account csv file
+ */
 package controller;
 
 import assets.AccountInformation;
